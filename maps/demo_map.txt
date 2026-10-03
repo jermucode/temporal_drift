@@ -1,0 +1,401 @@
+[config
+dialoguefile: dialogue_demo_map
+
+[tile]
+name: tile_demo_map
+tile: assets/RCCapartmentTILESET/apartment interior/native 16x16/apartmentinteriorA5.png
+sourceRec1: 0.0
+sourceRec2: 144.0
+sourceRec3: 16.0
+sourceRec4: 16.0
+tileSize: 16
+map_width: 15
+map_height: 15
+origin1: SCREEN_WIDTH/2.0 - 64.0
+origin2: SCREEN_HEIGHT/2.0 - 64.0
+scale: 2.0
+rotation: 0
+
+
+[object]
+name: left_wall
+tile: assets/RCCapartmentTILESET/apartment interior/native 16x16/apartmentinteriorBprops.png
+sourceRec1: 0.0
+sourceRec2: 0.0
+sourceRec3: 1.0
+sourceRec4: 5.0
+destRec1: 0.0
+destRec2: 0.0
+destRec3: 1.0
+destRec4: 560.0
+origin1: 0.0
+origin2: 0.0
+scale: 1.0
+rotation: 0
+collision: 1
+collisiontype: wall
+nextmap: none
+nextmapspawnx: none
+nextmapspawny: none
+interacttext: none
+itemId: demo_map_leftwall
+collisionRec1: 0.0
+collisionRec2: 128.0
+collisionRec3: 32.0
+collisionRec4: 560
+
+[object]
+name: top_wall
+tile: assets/RCCapartmentTILESET/apartment interior/native 16x16/apartmentinteriorBprops.png
+sourceRec1: 0.0
+sourceRec2: 0.0
+sourceRec3: 1.0
+sourceRec4: 5.0
+destRec1: 0.0
+destRec2: 0.0
+destRec3: 512.0
+destRec4: 1.0
+origin1: 0.0
+origin2: 0.0
+scale: 1.0
+rotation: 0
+collision: 1
+collisiontype: wall
+nextmap: none
+nextmapspawnx: none
+nextmapspawny: none
+interacttext: none
+itemId: demo_map_leftwall
+collisionRec1: 0.0
+collisionRec2: 128.0
+collisionRec3: 512.0
+collisionRec4: 1.0
+
+
+[object]
+name: right_wall
+tile: assets/RCCapartmentTILESET/apartment interior/native 16x16/apartmentinteriorBprops.png
+sourceRec1: 0.0
+sourceRec2: 0.0
+sourceRec3: 1.0
+sourceRec4: 5.0
+destRec1: 500.0
+destRec2: 0.0
+destRec3: 1.0
+destRec4: 560.0
+origin1: 0.0
+origin2: 0.0
+scale: 1.0
+rotation: 0
+collision: 1
+collisiontype: wall
+nextmap: none
+nextmapspawnx: none
+nextmapspawny: none
+interacttext: none
+itemId: demo_map_leftwall
+collisionRec1: 500.0
+collisionRec2: 0.0
+collisionRec3: 10.0
+collisionRec4: 560.0
+
+
+[object]
+name: bottom_wall
+tile: assets/RCCapartmentTILESET/apartment interior/native 16x16/apartmentinteriorBprops.png
+sourceRec1: 0.0
+sourceRec2: 0.0
+sourceRec3: 1.0
+sourceRec4: 0.0
+destRec1: 0.0
+destRec2: 550.0
+destRec3: 512.0
+destRec4: 1.0
+origin1: 0.0
+origin2: 0.0
+scale: 1.0
+rotation: 0
+collision: 1
+collisiontype: wall
+nextmap: none
+nextmapspawnx: none
+nextmapspawny: none
+interacttext: none
+itemId: demo_map_leftwall
+collisionRec1: 0.0
+collisionRec2: 530.0
+collisionRec3: 512.0
+collisionRec4: 1.0
+
+[object]
+name: background_png
+tile: src/maps/demo_map.png
+sourceRec1: 0.0
+sourceRec2: 0.0
+sourceRec3: 1024.0
+sourceRec4: 1024.0
+destRec1: 0.0
+destRec2: 0.0
+destRec3: 512.0
+destRec4: 560.0
+origin1: 0.0
+origin2: 0.0
+scale: 2.0
+rotation: 0
+collision: 0
+collisiontype: none
+nextmap: none
+nextmapspawnx: none
+nextmapspawny: none
+interacttext: none
+itemId: demo_map_background1
+collisionRec1: 0.0
+collisionRec2: 0.0
+collisionRec3: 1024.0
+collisionRec4: 1024.0
+
+[object]
+name: doormat1
+tile: assets/RCCapartmentTILESET/apartment interior/native 16x16/apartmentinteriorBprops.png
+sourceRec1: 224.0
+sourceRec2: 32.0
+sourceRec3: 32.0
+sourceRec4: 16.0
+destRec1: 90.0
+destRec2: 248.0
+destRec3: 100.0
+destRec4: 36.0
+origin1: 0.0
+origin2: 0.0
+scale: 1.0
+rotation: 90
+collision: 1
+collisiontype: maptransition
+nextmap: demo_map2.txt
+nextmapspawnx: 256.0
+nextmapspawny: 256.0
+interacttext: none
+itemId: demo_map_100001
+collisionRec1: 80.0
+collisionRec2: 270.0
+collisionRec3: 8.0
+collisionRec4: 54
+
+[object]
+name: bed1
+tile: assets/PVGames_SciFi/SciFi/SciFi_Deco_1.png
+sourceRec1: 256.0
+sourceRec2: 0.0
+sourceRec3: 128.0
+sourceRec4: 98.0
+destRec1: 370.0
+destRec2: 380.0
+destRec3: 128.0
+destRec4: 98.0
+origin1: 0.0
+origin2: 0.0
+scale: 1.0
+rotation: 0
+collision: 1
+collisiontype: wall
+nextmap: none
+nextmapspawnx: none
+nextmapspawny: none
+interacttext: none
+itemId: demo_map_100002
+collisionRec1: 406.0
+collisionRec2: 388.0
+collisionRec3: 56.0
+collisionRec4: 84.0
+
+[object]
+name: demo_shirt1
+tile: assets/rccITEMSICONSv2/rpg maker IconSet/IconSet.png
+sourceRec1: 256.0
+sourceRec2: 640.0
+sourceRec3: 32.0
+sourceRec4: 32.0
+destRec1: 410.0
+destRec2: 450.0
+destRec3: 32.0
+destRec4: 32.0
+origin1: 8.0
+origin2: 8.0
+scale: 1.0
+rotation: 144
+collision: 1
+collisiontype: wall
+nextmap: none
+nextmapspawnx: none
+nextmapspawny: none
+interacttext: none
+itemId: demo_map_100003
+collisionRec1: 0.0
+collisionRec2: 0.0
+collisionRec3: 0.0
+collisionRec4: 0.0
+
+[object]
+name: bed2
+tile: assets/PVGames_SciFi/SciFi/SciFi_Deco_1.png
+sourceRec1: 256.0
+sourceRec2: 0.0
+sourceRec3: 128.0
+sourceRec4: 98.0
+destRec1: 40.0
+destRec2: 96.0
+destRec3: 128.0
+destRec4: 98.0
+origin1: 0.0
+origin2: 0.0
+scale: 1.0
+rotation: 0
+collision: 1
+collisiontype: wall
+nextmap: none
+nextmapspawnx: none
+nextmapspawny: none
+interacttext: none
+itemId: demo_map_100003
+collisionRec1: 76.0
+collisionRec2: 104.0
+collisionRec3: 56.0
+collisionRec4: 84.0
+
+[object]
+name: demo_shirt2
+tile: assets/rccITEMSICONSv2/rpg maker IconSet/IconSet.png
+sourceRec1: 256.0
+sourceRec2: 640.0
+sourceRec3: 32.0
+sourceRec4: 32.0
+destRec1: 80.0
+destRec2: 144.0
+destRec3: 32.0
+destRec4: 32.0
+origin1: 0.0
+origin2: 0.0
+scale: 1.0
+rotation: 36
+collision: 1
+collisiontype: wall
+nextmap: none
+nextmapspawnx: none
+nextmapspawny: none
+interacttext: none
+itemId: demo_map_100002
+collisionRec1: 0.0
+collisionRec2: 0.0
+collisionRec3: 0.0
+collisionRec4: 0.0
+
+[animation]
+tile: assets/PVGames_SciFi/SciFi/Animated Items/!$ViewScreen_2.png
+name: demo_map/viewscreen0
+numFramesPerRow: 1
+frameWidth: 480
+frameHeight: 128
+first: 0
+last: 3
+cur: 0
+speed: 0.4
+duration_left: 0.2
+destRec1: 59.0
+destRec2: 14.0
+destRec3: 480.0
+destRec4: 114.0
+origin1: 0.0
+origin2: 0.0
+scale: 1.0
+rotation: 0
+collision: 1
+collisiontype: wall
+nextmap: none
+nextmapspawnx: 0.0
+nextmapspawny: 0.0
+interacttext: none
+collisionRec1: 260.0
+collisionRec2: 30.0
+collisionRec3: 128.0
+collisionRec4: 96.0
+
+[object]
+name: shelf1
+tile: assets/RCCapartmentTILESET/apartment interior/native 16x16/apartmentinteriorBprops.png
+sourceRec1: 128.0
+sourceRec2: 0.0
+sourceRec3: 32.0
+sourceRec4: 32.0
+destRec1: 480.0
+destRec2: 260.0
+destRec3: 80.0
+destRec4: 64.0
+origin1: 32.0
+origin2: 16.0
+scale: 2.0
+rotation: 90
+collision: 1
+collisiontype: wall
+nextmap: none
+nextmapspawnx: none
+nextmapspawny: none
+interacttext: none
+itemId: demo_map_100004
+collisionRec1: 460.0
+collisionRec2: 250.0
+collisionRec3: 80.0
+collisionRec4: 56.0
+
+[object]
+name: demo_microcontroller
+tile: assets/rccITEMSICONSv2/rpg maker IconSet/IconSet.png
+sourceRec1: 288.0
+sourceRec2: 160.0
+sourceRec3: 32.0
+sourceRec4: 32.0
+destRec1: 460.0
+destRec2: 270.0
+destRec3: 32.0
+destRec4: 32.0
+origin1: 0.0
+origin2: 0.0
+scale: 1.0
+rotation: 270
+collision: 1
+collisiontype: wall and pickup
+nextmap: none
+nextmapspawnx: none
+nextmapspawny: none
+interacttext: none
+itemId: demo_map_100006
+collisionRec1: 460.0
+collisionRec2: 250.0
+collisionRec3: 80.0
+collisionRec4: 56.0
+
+[object]
+name: table_computer1
+tile: assets/RCCapartmentTILESET/apartment interior/native 16x16/apartmentinteriorCprops.png
+sourceRec1: 0.0
+sourceRec2: 224.0
+sourceRec3: 32.0
+sourceRec4: 32.0
+destRec1: 400.0
+destRec2: 88.0
+destRec3: 82.0
+destRec4: 82.0
+origin1: 0.0
+origin2: 0.0
+scale: 2.0
+rotation: 0
+collision: 1
+collisiontype: wall and text
+nextmap: none
+nextmapspawnx: none
+nextmapspawny: none
+interacttext: table_computer1
+itemId: demo_map_100005
+collisionRec1: 400.0
+collisionRec2: 68.0
+collisionRec3: 80.0
+collisionRec4: 56.0
