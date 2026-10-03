@@ -8,4 +8,4 @@ Dialogue is also read from files.
 
 The project started as checking to see if I can make a game with just prompting AI. I quickly realized I had no idea what's going on under the hood. From that, I kept only the player animation loop. The map parser, dialogue, collisions, inventory are all written by me.
 
-
+![Gameplay Screenshot](docs/temporal_drift_demomap.png)
